@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "0432be74-2abe-4d9c-9985-e57f1e10b7d6",
+		"name": "eventCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31090400"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/events",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"2\",\r\n    \"eventName\": \"My Event\",\r\n    \"eventDate\": \"2022-12-31T00:00:00.000Z\",\r\n    \"organizer\": \"manas\",\r\n    \"email\": \"test@test.com\",\r\n    \"phone\": \"123456789\",\r\n    \"location\": {\r\n        \"street\": \"vigyan nagar\",\r\n        \"city\": \"kota\",\r\n        \"state\": \"rajasthan\",\r\n        \"zip\": \"324010\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events"
+					]
+				},
+				"description": "Add events\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/events/654e5ce245f06ee769e39d44",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/events/654e646b4252f40f33dfaf7f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						"654e646b4252f40f33dfaf7f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/events/654e56902a03f220a1a680df",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"2\",\r\n    \"eventName\": \"birthday\",\r\n    \"eventDate\": \"2022-12-31T00:00:00.000Z\",\r\n    \"organizer\": \"manas\",\r\n    \"email\": \"test@test.com\",\r\n    \"phone\": \"123456789\",\r\n    \"location\": {\r\n        \"street\": \"vigyan nagar\",\r\n        \"city\": \"kota\",\r\n        \"state\": \"rajasthan\",\r\n        \"zip\": \"324010\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/events/654e646b4252f40f33dfaf7f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						"654e646b4252f40f33dfaf7f"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
