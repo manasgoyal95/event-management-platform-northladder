@@ -26,6 +26,12 @@ Update - I have changed the above event name from "My event" to "Birthday"
 ![image](https://github.com/manasgoyal95/event-management-platform-northladder/assets/83281087/d54b1e93-9ff3-4d8a-b868-df802b63973f)
 ![image](https://github.com/manasgoyal95/event-management-platform-northladder/assets/83281087/8ebd2c82-f11d-4df9-892d-a5c81c67c29f)
 
+For getting events based on filters I have query parameters but it can be further developed by providing the time and duration range for getting the events.
+![image](https://github.com/manasgoyal95/event-management-platform-northladder/assets/83281087/47e0442e-2499-4776-a588-beca967e998c)
+
+This gets all the marriage events.
+![image](https://github.com/manasgoyal95/event-management-platform-northladder/assets/83281087/79a8916f-b646-4a91-bc1f-3bcd2fcb89cc)
+
 
 
 For getting a particular event again to go the route "/event/:id" and it would provide us to that particular event.
