@@ -1,8 +1,9 @@
 # event-management-platform-north ladder
 I have made this assignment using NodeJS, ExpressJs, and MongoDB.
+First, install all the dependencies by running "npm install" in the terminal.
 For server, I have used nodemon so for starting the server please use - npm run start.
 For accessing all the endpoints please go to "http://localhost:8080" and add the endpoints as described below for different purposes. 
-I also have attached postman screenshots for the all the post requests made.
+I have also attached postman screenshots for all the post requests made.
 
 This is set up on port 8080.
 
