@@ -17,8 +17,15 @@ For adding a new event - I have created a new route "/events" that creates a new
 
 For updating and deleting an existing I have created a route "/events/:id" which takes the id of the event to be updated or deleted.
 
+Delete -
+
 ![image](https://github.com/manasgoyal95/event-management-platform-northladder/assets/83281087/0677c35f-bd0e-49d3-aa53-ccd1e0723fee)
 ![image](https://github.com/manasgoyal95/event-management-platform-northladder/assets/83281087/d44d1ea2-242f-4789-8a74-a587b5dfa225)
+
+Update - I have changed the above event name from "My event" to "Birthday"
+![image](https://github.com/manasgoyal95/event-management-platform-northladder/assets/83281087/d54b1e93-9ff3-4d8a-b868-df802b63973f)
+![image](https://github.com/manasgoyal95/event-management-platform-northladder/assets/83281087/8ebd2c82-f11d-4df9-892d-a5c81c67c29f)
+
 
 
 For getting a particular event again to go the route "/event/:id" and it would provide us to that particular event.
