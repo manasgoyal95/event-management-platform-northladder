@@ -61,6 +61,19 @@ app.get("/events/:id", async (req, res) => {
   res.send(event);
 });
 
+app.get('/events', async (req, res) => {
+    const query = {};
+    if (req.query.eventName) {
+        query.eventName = req.query.eventName;
+    }
+    if (req.query.organizer) {
+        query.organizer = req.query.organizer;
+    }
+    // Add more filters as needed...
+    const events = await eventModel.find(query);
+    res.status(200).json({success:true,events});
+});
+
 app.listen("8080", () => {
   console.log("server running");
 });
